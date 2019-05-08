@@ -1,0 +1,54 @@
+body {
+    font: 10pt Arial, Helvetica, sans-serif;
+    background: mediumturquoise;
+    margin: 0;
+}
+h2 {
+    font-size: 1.1em;
+    color: #752641;
+    margin-bottom: 0;
+}
+
+header {
+    background: #8fa09b;
+    text-align: left;
+    font-size: 24pt;
+    font-weight: bold;
+    color: #edeed5;
+    padding: 20px;
+    background: linear-gradient(-45deg, #FEE864, #F5965E);
+    color: #f4f4f4;
+    text-shadow: -1px -1px white, 1px 1px gray, 2px 2px #7a7a7a, 3px 3px #757575, 4px 4px #707070, 5px 5px #6b6b6b, 6px 6px #666666, 7px 7px #616161, 8px 8px #5c5c5c, 9px 9px #575757, 10px 10px #525252, 11px 11px #4d4d4d, 18px 18px 30px rgba(0, 0, 0, .4), 18px 18px 10px rgba(0, 0, 0, .4);
+}
+section {
+    float: left;
+    width: 529px;
+    padding: 10px;
+    border-right: 1px dashed #183533; /* Линия справа */
+    background: #fff; /* Цвет фона левой колонки */
+}
+section p {
+    margin-top: 0.3em /* Отступ сверху */
+}
+aside {
+    float: left; /* Обтекание по правому краю */
+    width: 120px; /* Ширина */
+    padding: 10px; /* Отступы вокруг текста */
+    background-color: cornflowerblue;
+}
+footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: #39b54a; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+}
+h3
+{
+    font-style: italic;
+    font-size: 12px;
+}
+img{
+    float: right;
+}
