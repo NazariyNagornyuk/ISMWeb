@@ -1,0 +1,41 @@
+header{ background: navy;
+    text-align: center;
+    color: white;
+    font-family: Arial;
+}
+
+body{
+    font-size: 15px;}
+
+layout { overflow: hidden; }
+nav { background: steelblue; float: left; width: 200px; }
+section { background: #E0D2C7;
+    margin: 0 250px 0 200px; /* Отступ справа и слева */
+    color:black;
+    text-align: justify;
+    padding: 10px;
+}
+aside { background: #525252; width: 250px; float: right; color:white; text-align: justify;}
+aside li {margin: 5px; padding: 5px;}
+img {float: left;
+    margin: 15px;
+    padding: 10px;}
+
+a{
+    display: block;
+    background-color: sandybrown;
+    text-decoration: none;
+}
+a.here{
+    background-color: #f4f4f4;
+
+}
+a:hover{
+    background-color: aqua;
+}
+.right {
+    float: right;
+}
+.left{
+    float:left;
+}
