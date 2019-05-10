@@ -1,0 +1,33 @@
+header{ background: darkcyan;
+    text-align: center;
+    color: #ffcc66;
+    }
+
+body{
+font-size: 15px;}
+
+layout { overflow: hidden; }
+nav { background: #C7E3E4; float: left; width: 200px; }
+section { background: #E0D2C7;
+    margin: 0 150px 0 200px; /* Отступ справа и слева */
+    color:black;
+    text-align: justify;
+    padding: 10px;
+}
+aside { background: #ECD5DE; width: 150px; float: right; color:green; text-align: justify;}
+img {float: left;
+    margin: 15px;
+    padding: 10px;}
+
+a{
+    display: block;
+    background-color: sandybrown;
+    text-decoration: none;
+}
+a.here{
+    background-color: #f4f4f4;
+
+}
+a:hover{
+    background-color: aqua;
+}
