@@ -1,0 +1,55 @@
+body {
+    font: 0.8em Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
+    background: #D7E1F2; /* Цвет фона */
+    color: #ffe; /* Цвет текста */
+}
+a { color: lime; /* Цвет ссылок */ }
+#container {
+    width: 1000px; /* Ширина макета */
+    margin: 0 auto; /* Выравниваем по центру */
+    background: #D71920; /* Цвет колонок */
+}
+header {
+    font-size: 2.2em; /* Размер текста */
+    text-align: center; /* Выравнивание по центру */
+    padding: 5px; /* Отступы вокруг текста */
+    background: orangered; /* Цвет фона шапки */
+    text-shadow:  1px 1px 2px black, 0 0 1em red;
+}
+nav, aside {
+    float: left; width: 150px; padding: 5px;
+}
+nav, aside p{text-align: justify}
+section {
+    background: black;
+    margin: 0 170px; /* Ширина колонок */
+    padding: 10px;
+}
+aside {
+    float: right; color: #000;
+}
+h2 { margin: 0 0 1em; }
+footer {
+    clear: both; /* Отменяем действие float */
+    padding: 5px; /* Отступы вокруг текста */
+    background: #39b54a; /* Цвет фона подвала */
+
+}
+article
+{
+    display: block;
+    border:1px black dotted;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+article p
+{
+    text-align: justify;
+}
+img
+{
+    float: right;
+    margin:5px;
+    padding:5px;
+    width: 200px;
+}
