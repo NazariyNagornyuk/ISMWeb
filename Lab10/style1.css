@@ -1,0 +1,91 @@
+body
+{
+    font-family: "Times New Roman";
+}
+div
+{
+    background-color: deepskyblue;
+    color:white;
+    border: 1px solid blue;
+    margin:10px;
+    text-align: center;
+}
+.flex-menu-A
+{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:600px;
+}
+.flex-menu-B
+{
+    display: inline-flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width:600px;
+}
+.flex-menu-C
+{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    width:600px;
+}
+.flex-menu-D
+{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    width:600px;
+    align-items: stretch;
+}
+.flex-menu-E
+{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    width:600px;
+    align-items: center;
+}
+.flex-menu-F
+ {
+     display: inline-flex;
+     flex-direction: row;
+     justify-content: flex-end;
+     align-items: center;
+     width:600px;
+ }
+.flex-menu-G
+{
+    display: inline-flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    width:600px;
+}
+.flex-menu-H
+{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:600px;
+    flex-wrap: wrap;
+}
+.flex-menu-I
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width:600px;
+    align-items: stretch;
+}
+.active-flex-block
+{
+    color:deepskyblue;
+    background-color: white;
+}
+.without
+{
+    border:none;
+}

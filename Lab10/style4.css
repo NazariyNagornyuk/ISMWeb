@@ -1,0 +1,45 @@
+
+body {
+    display: inline-flex;
+    flex-direction: column;
+    font-family: "Times New Roman", serif;
+    text-align: center;
+    align-items: stretch;
+flex-wrap: wrap;
+    /* не работает flex wrap( */
+    align-content:start;
+}
+header
+{
+    height: 10vh;
+    background-color: #00FFFF;
+}
+footer {
+    height: 10vh;
+    background-color: #0000FF;
+    color:white;
+}
+nav
+{
+    background-color: #FF00FF;
+width: 200px;
+    order: -1;
+}
+aside
+{
+
+    background-color: #FFFF00;
+    width: 200px;
+}
+main
+{
+    display: flex;
+    background-color: #90EE90;
+    flex:1;
+}
+article
+{
+    flex:1;
+    padding: 1%;
+    text-align: left;
+}

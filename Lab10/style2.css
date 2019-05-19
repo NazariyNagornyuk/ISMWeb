@@ -1,0 +1,18 @@
+.flex-container
+{
+    flex-wrap: wrap;
+    display: inline-flex;
+    list-style-type: none;
+
+}
+.flex-item
+{
+
+    font-family: Arial;
+    font-size: 22px;
+    padding:36px;
+    background-color: #FF6347;
+    color:white;
+    border:1px solid white;
+    flex-grow: 1;
+}
