@@ -1,0 +1,318 @@
+#d1{
+    background: white;
+    border: 1px solid red;
+
+    width: 30%;
+    height: 100px;
+
+    -webkit-transition: background 1s ease-out;
+    -moz-transition: background 1s ease-out;
+    -o-transition: background 1s ease-out;
+    transition: background 1s ease-out;
+}
+#d1:hover {
+    background: red;
+}
+
+
+#d2{
+    background: white;
+    border: 1px solid red;
+    color: red;
+
+    width: 30%;
+    height: 100px;
+
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+#d2:hover {
+    color: white; background: red;
+}
+
+
+#d3{
+    background: white;
+    border: 1px solid red;
+    color: red;
+
+    width: 30%;
+    height: 50px;
+
+    -webkit-transition: width 1s ease-out;
+    -moz-transition: width 1s ease-out;
+    -o-transition: width 1s ease-out;
+    transition: width 1s ease-out;
+}
+#d3:hover {
+    width: 100%;
+}
+
+
+#d4{
+    background: white;
+    border: 1px solid red;
+    color: red;
+
+    width: 30%;
+    height: 50px;
+
+    font-size: 15px;
+
+    -webkit-transition: width 1s ease-out, font-size 1s ease-out;
+    -moz-transition: width 1s ease-out, font-size 1s ease-out;
+    -o-transition: width 1s ease-out, font-size 1s ease-out;
+    transition: width 1s ease-out, font-size 1s ease-out;
+}
+#d4:hover{
+    width: 100%; font-size: 25px;
+}
+
+
+#d5{
+    background: white;
+    border: 1px solid red;
+    color: red;
+
+    width: 30%;
+    height: 50px;
+
+    -webkit-transition: width 1s ease-out 0.2s,  margin-left 1s ease-out 0.2s;
+    -moz-transition: width 1s ease-out 0.2s,  margin-left 1s ease-out 0.2s;
+    -o-transition: width 1s ease-out 0.2s,  margin-left 1s ease-out 0.2s;
+    transition: width 1s ease-out 0.2s,  margin-left 1s ease-out 0.2s;
+}
+#d5:hover {
+    width: 70%; margin-left: 10%;
+}
+
+#d6{
+
+    background: white;
+    border: 1px solid red;
+    color: black;
+
+    width: 30%;
+    height: 50px;
+
+    text-indent: 2000px;
+    line-height: 50px;
+    text-align: center;
+
+    -webkit-transition: text-indent 1s ease-out;
+    -moz-transition: text-indent 1s ease-out;
+    -o-transition: text-indent 1s ease-out;
+    transition: text-indent 1s linear;
+
+    white-space: nowrap;
+}
+
+#d6:hover {
+    color: black; text-indent: 0px;
+}
+#d7 {
+    border: 1px solid red;
+    width: 30%;
+    height: 50px;
+    color: #000;
+
+    -o-transition: width 3s linear 3s;
+    -moz-transition: width 3s linear 3s;
+    -webkit-transition: width 3s linear 3s;
+    transition: width 3s linear 3s;
+}
+#d7:hover {
+    width: 100%;
+}
+input{
+    width: 30%;
+    height: 30px;
+    padding: 0px 5px;
+
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+input:focus{
+    width: 50%; box-shadow: 0px 0px 2px blue; color: blue; outline: none;
+}
+.test div{
+    background: white;
+    border: 1px solid red;
+
+    width: 30%;
+    height: 30px;
+
+    margin-bottom: 40px;
+
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+.test div:last-child{
+    margin-bottom: 0;
+}
+
+.test{
+    padding: 40px 5%;
+    border: 1px solid green;
+}
+.test:hover div{
+    width: 100%;
+}
+.d10{
+    background: white;
+    border: 1px solid red;
+
+    width: 30%;
+    height: 30px;
+
+    margin: 0px 0px 20px 20px;
+
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+.d10:last-child{
+    margin-bottom: 0;
+}
+
+.d10:hover  + .d10{
+    width: 70%;
+}
+.show{
+    background: white;
+    border: 1px solid red;
+
+    padding: 10px;
+}
+
+.hint{
+    background: #FF5B5B;
+
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+
+    margin: 20px 0px 0px -400px;
+    padding: 10px;
+
+    text-align: center;
+    color: white;
+
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+
+}
+
+.show:hover  + .hint{
+    margin-left: 30%;
+}
+#div1{
+    border: 1px solid red;
+    width: 30%;
+    height: 50px;
+    color: #000;
+
+    -o-transition: width 3s steps(5, start);
+    -moz-transition: width 3s steps(5, start);
+    -webkit-transition: width 3s steps(5, start);
+    transition: width 3s steps(5, start);
+}
+#div2{
+    border: 1px solid red;
+    width: 30%;
+    height: 50px;
+    color: #000;
+    margin-top: 20px;
+
+    -o-transition: width 3s steps(5, end);
+    -moz-transition: width 3s steps(5, end);
+    -webkit-transition: width 3s steps(5, end);
+    transition: width 3s steps(5, end);
+}
+#go:hover div{
+    width: 100%;
+}
+#div {
+    border: 1px solid red;
+    width: 30%;
+    height: 50px;
+    color: #000;
+
+    -o-transition: width 3s cubic-bezier(.20,-0.4,0,.81);
+    -moz-transition: width 3s cubic-bezier(.20,-0.4,0,.81);
+    -webkit-transition: width 3s cubic-bezier(.20,-0.4,0,.81);
+    transition: width 3s cubic-bezier(.20,-0.4,0,.81);
+}
+#div:hover {
+    width: 100%;
+}
+#wrapper{
+    margin: 0px auto;
+    width: 50%;
+    height: 30px;
+    border: 1px solid red;
+}
+#test1{
+    background: red;
+    width: 0%;
+    height: 30px;
+
+    -o-transition: all 2s linear;
+    -moz-transition: all 2s linear;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+
+}
+#wrapper:hover div{
+    width: 100%;
+}
+
+#wrapper1{
+    margin: 0px auto;
+    width: 50%;
+    height: 30px;
+    border: 1px solid red;
+}
+#test2{
+    background: red;
+    width: 0%;
+    height: 30px;
+
+    -o-transition: all 4s steps(5, start);
+    -moz-transition: all 4s steps(5, start);
+    -webkit-transition: all 4s steps(5, start);
+    transition: all 4s steps(5, start);
+
+}
+#wrapper1:hover div{
+    width: 100%;
+}
+#testz{
+    background: white;
+    border: 1px solid red;
+
+    width: 150px;
+    height: 50px;
+    margin: 200px auto;
+
+    -o-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+
+    box-shadow: -100px 100px black, 100px -100px black;
+
+}
+
+#testz:hover {
+    box-shadow: 100px 100px black, 100px 100px black;
+}
